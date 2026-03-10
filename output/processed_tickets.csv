@@ -1,0 +1,4 @@
+Ticket ID,Name,Email,Issue Type,Priority,Description,Timestamp,Assigned Team,SLA Deadline
+101.0,Rahul,rahul@gmail.com,wifi,High,Wifi not working,10-03-2025 10:00,Network,2025-10-03 14:00:00
+102.0,Anita,anita@gmail.com,login,Medium,cannot login,10-03-2025 11:00,IT Support,2025-10-04 11:00:00
+104.0,Meena,meena@gmail.com,hardware,Medium,printer issue,10-03-2025 13:00,Infrastructure,2025-10-04 13:00:00

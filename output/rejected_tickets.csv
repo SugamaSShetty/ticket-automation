@@ -1,0 +1,3 @@
+Ticket ID,Name,Email,Issue Type,Priority,Description,Timestamp,Reason
+,John,wrongemail,software,Low,install software,10-03-2025 12:00,Invalid Email
+105.0,Rahul,rahul@gmail.com,wifi,High,wifi slow,10-03-2025 15:00,Duplicate Ticket

@@ -1,0 +1,6 @@
+Ticket ID,Name,Email,Issue Type,Priority,Description,Timestamp
+101,Rahul,rahul@gmail.com,wifi,High,Wifi not working,10-03-2025 10:00
+102,Anita,anita@gmail.com,login,Medium,cannot login,10-03-2025 11:00
+,John,wrongemail,software,Low,install software,10-03-2025 12:00
+104,Meena,meena@gmail.com,hardware,Medium,printer issue,10-03-2025 13:00
+105,Rahul,rahul@gmail.com,wifi,High,wifi slow,10-03-2025 15:00

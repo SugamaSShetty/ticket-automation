@@ -39,6 +39,8 @@ rejected_tickets.csv
 This file contains rejected tickets with reason like invalid email, duplicate ticket etc.
 summary_report.csv
 This file shows summary like total tickets, processed tickets and rejected tickets.
+team_summary.csv
+shows how many tickets assigned per team
 
 Future Scope :-
 This project is a basic automation. In future it can be improved more. For example tickets can come from a web form or helpdesk portal instead of CSV file.

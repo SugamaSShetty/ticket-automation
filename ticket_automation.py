@@ -2,6 +2,11 @@ import pandas as pd
 import re
 import uuid
 from datetime import timedelta
+import os
+from collections import Counter
+
+if not os.path.exists("output"):
+    os.makedirs("output")
 
 df = pd.read_csv("input/tickets.csv")
 
@@ -25,7 +30,6 @@ def valid_email(email):
 seen = {}
 
 for index, row in df.iterrows():
-
     email = str(row["Email"]).lower().strip()
     issue = str(row["Issue Type"]).lower().strip()
     priority = str(row["Priority"]).lower().strip()
@@ -47,18 +51,15 @@ for index, row in df.iterrows():
         continue
 
     key = (email, issue)
-
     if key in seen:
         if (timestamp - seen[key]).total_seconds() < 86400:
             row["Reason"] = "Duplicate Ticket"
             rejected.append(row)
             continue
-
     seen[key] = timestamp
 
     ticket_id = row["Ticket ID"]
-
-    if pd.isna(ticket_id):
+    if pd.isna(ticket_id) or ticket_id == "":
         ticket_id = "TCKT-" + str(uuid.uuid4())[:6]
 
     team = routing[issue]
@@ -84,8 +85,11 @@ summary = {
     "Processed": len(processed),
     "Rejected": len(rejected)
 }
-
 summary_df = pd.DataFrame(list(summary.items()), columns=["Metric", "Value"])
 summary_df.to_csv("output/summary_report.csv", index=False)
 
-print("Automation Completed")
+team_counts = Counter([row["Assigned Team"] for row in processed])
+team_summary_df = pd.DataFrame(list(team_counts.items()), columns=["Team", "Tickets Assigned"])
+team_summary_df.to_csv("output/team_summary.csv", index=False)
+
+print("Automation Completed. All files are in the 'output' folder.")

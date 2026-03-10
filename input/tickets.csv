@@ -4,3 +4,12 @@ Ticket ID,Name,Email,Issue Type,Priority,Description,Timestamp
 ,John,wrongemail,software,Low,install software,10-03-2025 12:00
 104,Meena,meena@gmail.com,hardware,Medium,printer issue,10-03-2025 13:00
 105,Rahul,rahul@gmail.com,wifi,High,wifi slow,10-03-2025 15:00
+,Sugama,sugama@gmail.com,software,high,install software,10-03-2025 17:00
+101,Kavitha,kavitha@example.com,wifi,high,WiFi not connecting,10-03-2026 09:00
+102,Kavitha,kavitha@example.com,wifi,high,WiFi issue again,10-03-2026 12:00
+,Harini,harini@example.com,software,medium,Need software installation,10-03-2026 10:30
+,Vaishu,vaishu@example.com,printer,low,Printer not working,10-03-2026 12:00
+104,Soumya,invalidemail,login,medium,Cannot login to portal,10-03-2026 11:00
+105,Sindhu,sindhu@example.com,wifi,urgent,WiFi issue,10-03-2026 11:30
+,Sanketh,sanketh@example.com,hardware,low,Laptop not working,10-03-2026 12:30
+,Sambrama,sambrama@example.com,other,medium,General help needed,10-03-2026 13:00

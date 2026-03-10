@@ -2,3 +2,8 @@ Ticket ID,Name,Email,Issue Type,Priority,Description,Timestamp,Assigned Team,SLA
 101.0,Rahul,rahul@gmail.com,wifi,High,Wifi not working,10-03-2025 10:00,Network,2025-10-03 14:00:00
 102.0,Anita,anita@gmail.com,login,Medium,cannot login,10-03-2025 11:00,IT Support,2025-10-04 11:00:00
 104.0,Meena,meena@gmail.com,hardware,Medium,printer issue,10-03-2025 13:00,Infrastructure,2025-10-04 13:00:00
+TCKT-c33bea,Sugama,sugama@gmail.com,software,high,install software,10-03-2025 17:00,Applications,2025-10-03 21:00:00
+101.0,Kavitha,kavitha@example.com,wifi,high,WiFi not connecting,10-03-2026 09:00,Network,2026-10-03 13:00:00
+TCKT-6aa791,Harini,harini@example.com,software,medium,Need software installation,10-03-2026 10:30,Applications,2026-10-04 10:30:00
+TCKT-438c01,Sanketh,sanketh@example.com,hardware,low,Laptop not working,10-03-2026 12:30,Infrastructure,2026-10-06 12:30:00
+TCKT-c8ff82,Sambrama,sambrama@example.com,other,medium,General help needed,10-03-2026 13:00,General,2026-10-04 13:00:00
